@@ -19,3 +19,5 @@ jobs:
       - name: Que ruta es
         run: pwd
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: Ejecuta script
+        run: sh ./script.sh
